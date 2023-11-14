@@ -4,16 +4,16 @@
  >
   <!-- hambuger menu -->
   <button
-   class="h-10 flex items-center w-10 justify-center rounded-full bg-[#F2EC00]"
+   class="h-10 flex items-center w-10 justify-center rounded-full bg-slate-300"
   >
    <Icon name="ic:sharp-menu" class="text-2xl" />
   </button>
 
   <nuxt-link to="/">
-   <h1 class="text-[#F2EC00] font-Libre text-2xl uppercase">Focal Foods</h1>
+   <h1 class="text-white font-Libre text-2xl uppercase">Focal Foods</h1>
   </nuxt-link>
   <button
-   class="h-10 flex items-center w-10 justify-center rounded-full bg-[#F2EC00]"
+   class="h-10 flex items-center w-10 justify-center rounded-full bg-slate-300"
   >
    <Icon name="ic:outline-shopping-cart" class="text-2xl" />
   </button>
