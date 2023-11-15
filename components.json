@@ -1,15 +1,15 @@
 {
-  "style": "default",
-  "typescript": true,
-  "tailwind": {
-    "config": "tailwind.config.js",
-    "css": "assets/css/main.css",
-    "baseColor": "slate",
-    "cssVariables": false
-  },
-  "framework": "nuxt",
-  "aliases": {
-    "components": "@/components",
-    "utils": "@/lib/utils"
-  }
+ "style": "default",
+ "typescript": true,
+ "tailwind": {
+  "config": "tailwind.config.js",
+  "css": "assets/css/main.css",
+  "baseColor": "#F6E088",
+  "cssVariables": false
+ },
+ "framework": "nuxt",
+ "aliases": {
+  "components": "@/components",
+  "utils": "@/lib/utils"
+ }
 }

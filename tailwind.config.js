@@ -12,7 +12,8 @@ module.exports = {
  theme: {
   fontFamily: {
    Libre: ["Abhaya Libre", "sans-serif"],
-   Roboto: ["Roboto", "sans-serif"],
+   Montserrat: ["Montserrat", "sans-serif"],
+   Josefinsans: ["Josefin Sans", "sans-serif"],
   },
   container: {
    center: true,

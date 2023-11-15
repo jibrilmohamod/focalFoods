@@ -1,8 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
  devtools: { enabled: true },
- css: ["~/assets/css/main.css"],
- modules: ["@nuxtjs/google-fonts", "nuxt-icon", "@nuxt/image"],
+ css: ["~/assets/css/main.css", "animate.css/animate.min.css"],
+ modules: [
+  "@nuxtjs/google-fonts",
+  "nuxt-icon",
+  "@nuxt/image",
+  "@pinia/nuxt",
+  "@pinia-plugin-persistedstate/nuxt",
+ ],
 
  //tailwind options
  postcss: {
@@ -32,12 +38,19 @@ export default defineNuxtConfig({
   display: "swap",
   families: {
    "Abhaya Libre": true,
-   Roboto: true,
+   Montserrat: true,
+   "Josefin Sans": true,
   },
  },
+ //  Nuxt Image
  image: {
   cloudinary: {
    baseURL: "https://res.cloudinary.com/dckmlqzgd/image/upload/",
   },
+ },
+
+ //  pinia
+ pinia: {
+  storesDirs: ["./stores"],
  },
 })
