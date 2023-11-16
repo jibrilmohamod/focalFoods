@@ -12,10 +12,16 @@
     paragraph=" Experience the taste of Kenya with Focal Foods' Honey – golden, creamy, and
    packed with the goodness of Kenyan superfoods. Beyond sweet, it's a health
    elixir rich in nutrients and antioxidants. Bee well with every drop – good
-   for you, good for the bees. Elevate your honey game with Focal Foods. 🐝"
+   for you, good for the bees. Elevate your honey game with Focal Foods."
    >
     <template #image>
-     <div class="h-64 md:h-96 2xl:h-[40vh] md:w-10/12">
+     <div
+      class="h-64 md:h-96 2xl:h-[40vh] md:w-10/12 duration-1000 ease-in-out"
+      v-animateonscroll="{
+       enterClass: 'fadeinleft',
+       leaveClass: 'fadeoutleft',
+      }"
+     >
       <NuxtImg
        provider="cloudinary"
        src="v1700048068/front-view-honey-jar-with-wooden-spoon-green-grapes-wooden-background_rjjbnq.jpg"
@@ -58,7 +64,7 @@
 
     <template #button>
      <div class="py-6">
-      <button class="px-10 bg-[#F6E088] py-3 w-fit">
+      <button class="px-10 bg-amber-200 py-3 w-fit">
        <nuxt-link to="/products" class="text-xl text-black font-Josefinsans">
         About Us
        </nuxt-link>
@@ -66,25 +72,12 @@
      </div>
     </template>
    </ui-comp>
+
+   <TheProducts />
   </div>
  </div>
- {{ products }}
 </template>
 
-<script setup>
- const products = ref([]) // Use ref to create a reactive variable
- const fetchProducts = async () => {
-  try {
-   const response = await fetch("/api/products")
-   products.value = await response.json() // Set the value of products
-   return products.value
-  } catch (error) {
-   console.error("Error fetching products:", error)
-   return []
-  }
- }
-
- onMounted(fetchProducts) // Call fetchProducts when the component is mounted
-</script>
+<script setup></script>
 
 <style lang="scss" scoped></style>

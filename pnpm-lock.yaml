@@ -19,6 +19,7 @@ specifiers:
   nuxt: ^3.8.1
   nuxt-aos: ^1.1.6
   nuxt-icon: ^0.6.6
+  nuxt-primevue: ^0.2.0
   postcss: ^8.4.31
   tailwind-merge: ^2.0.0
   tailwindcss: ^3.3.5
@@ -56,6 +57,7 @@ devDependencies:
   autoprefixer: 10.4.16_postcss@8.4.31
   nuxt: 3.8.1_typescript@5.2.2+vite@4.5.0
   nuxt-icon: 0.6.6_nuxt@3.8.1+vite@4.5.0+vue@3.3.8
+  nuxt-primevue: 0.2.0_vue@3.3.8
   postcss: 8.4.31
   tailwindcss: 3.3.5
   typescript: 5.2.2
@@ -6265,6 +6267,17 @@ packages:
       - vue
     dev: true
 
+  /nuxt-primevue/0.2.0_vue@3.3.8:
+    resolution: {integrity: sha512-t/PwxerblyEqe1SCm3CtNxWGLni12lsf7C7XyakHLVHKslZXs5M0fwAHCX9dPsTSOzs74/zNh2CKHtLt4mXdnQ==}
+    dependencies:
+      '@nuxt/kit': 3.8.1
+      primevue: 3.40.1_vue@3.3.8
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+      - vue
+    dev: true
+
   /nuxt-schema-org/3.1.6_4faa838a3afe6202810bdaf63b435d19:
     resolution: {integrity: sha512-n35Uxt9Yg8vuVw/rixxQliSHPN70MclWTDT+SbfWoYrdO2QLcxehZX8VwRjMIrK6ATDB11BZjO50inQcpp6nCw==}
     dependencies:
@@ -7394,6 +7407,14 @@ packages:
   /pretty-bytes/6.1.1:
     resolution: {integrity: sha512-mQUvGU6aUFQ+rNvTIAcZuWGRT9a6f6Yrg9bHs4ImKF+HZCEK+plBvnAZYSIQztknZF2qnzNtr6F8s0+IuptdlQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
+    dev: true
+
+  /primevue/3.40.1_vue@3.3.8:
+    resolution: {integrity: sha512-TIFjoSUDiTmlxwQddaWckzcPIpj0F8a6ZMnm0tpAD/ieyUIHnNpbAi5de8LQf8eF0b+x5EkOkdjdngSlD+iPCw==}
+    peerDependencies:
+      vue: ^3.0.0
+    dependencies:
+      vue: 3.3.8_typescript@5.2.2
     dev: true
 
   /proc-log/3.0.0:

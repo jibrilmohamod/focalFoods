@@ -16,16 +16,16 @@
     </div>
 
     <h2
-     class="text-[45px] text-center leading-tight text-gray-50 md:text-7xl xl:text-8xl font-Josefinsans uppercase"
+     class="text-[45px] text-center leading-tight text-gray-50 md:text-7xl xl:text-8xl font- uppercase px-4"
     >
      When only the best honey will do
     </h2>
     <h4 class="px-10 text-center font-Josefinsans md:text-xl">
      100% PURE , Kenyan HONEY
     </h4>
-    <SiteLink to="/menu/">
+    <NuxtLink to="/menu/">
      <NuxtButton name="View Menus"> </NuxtButton>
-    </SiteLink>
+    </NuxtLink>
    </div>
   </div>
   <!-- hero image -->
