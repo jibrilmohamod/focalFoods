@@ -1,6 +1,6 @@
 <template>
  <div
-  class="pt-8 pl-6 pr-3 md:px-0 pb-4 md:container md:m-auto md:pt-16 md:flex"
+  class="pt-8 pl-6 pr-3 md:px-2 pb-4 md:container md:m-auto md:pt-16 md:flex md:gap-x-6 2xl:px-0"
  >
   <div class="md:basis-1/2 md:flex md:flex-col h-full">
    <!-- small text with line to its right -->
@@ -61,12 +61,11 @@
   },
   header: {
    type: String,
-   default: "Enjoy An Unforgettable Dining Experience",
+   default: "",
   },
   paragraph: {
    type: String,
-   default:
-    "  We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better.",
+   default: " .",
   },
  })
 </script>

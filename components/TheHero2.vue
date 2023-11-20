@@ -4,7 +4,7 @@
   <div class="absolute inset-0 bg-black opacity-50 z-10"></div>
   <div>
    <!-- logo -->
-   <TheNav2 />
+   <TheNav />
    <!-- call to action -->
    <div
     class="absolute inset-0 flex items-center justify-center flex-col z-20 gap-4 mt-16 md:container md:m-auto md:pt-10 xl:pt-20 md:gap-10"
@@ -16,16 +16,16 @@
     </div>
 
     <h2
-     class="text-[45px] text-center leading-tight text-gray-50 md:text-7xl xl:text-8xl font-Josefinsans uppercase"
+     class="text-[45px] text-center leading-tight text-gray-50 md:text-7xl xl:text-8xl font- uppercase px-4 font-Josefinsans"
     >
      When only the best honey will do
     </h2>
     <h4 class="px-10 text-center font-Josefinsans md:text-xl">
      100% PURE , Kenyan HONEY
     </h4>
-    <SiteLink to="/menu/">
+    <NuxtLink to="/menu/">
      <NuxtButton name="View Menus"> </NuxtButton>
-    </SiteLink>
+    </NuxtLink>
    </div>
   </div>
   <!-- hero image -->
