@@ -61,7 +61,7 @@
     <!-- logo -->
     <h1 class="w-fit">
      <NuxtLink to="/">
-      <img src="/accent.svg" alt="logo" class="object-contain h-14 w-fit" />
+      <img src="" alt="logo" class="object-contain h-14 w-fit" />
      </NuxtLink>
     </h1>
     <!-- navigation -->
@@ -98,7 +98,7 @@
     <!-- site name and logo -->
     <div class="text-wh border-buttonite absolute z-20 top-5 left-4">
      <h1 class="h-12 p-2 text-4xl font-Lexend">
-      <img src="/accent.svg" alt="logo" class="object-contain h-12 w-full" />
+      <img src="" alt="logo" class="object-contain h-12 w-full" />
      </h1>
     </div>
    </NuxtLink>
