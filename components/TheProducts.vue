@@ -54,7 +54,7 @@
          :src="prod.src"
          format="webp"
          sizes="xl:100vw"
-         class="w-full h-full object-cover rounded-xl"
+         class="w-full h-full object-cover rounded-xl bg-amber-200"
          :modifiers="{ effect: 'colorize:20', color: 'black' }"
         />
         <div class="py-8 sm:p-9 md:px-7 xl:p-9">

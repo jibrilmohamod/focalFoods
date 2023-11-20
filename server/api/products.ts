@@ -7,7 +7,7 @@ export default defineEventHandler((event) => {
     price: 300,
     details: "Natural Forest Honey From the Kenyan Highlands",
     size: "500g",
-    src: "v1694008262/mads-eneqvist-zqiE16q_Ju0-unsplash_da5rtx.jpg",
+    src: "v1700457756/PKS_2805-removebg-preview_xlwlpb.png",
    },
    //    1kg honey
    {
@@ -15,7 +15,7 @@ export default defineEventHandler((event) => {
     price: 600,
     details: "Natural Forest Honey From the Kenyan Highlands",
     size: "1kg",
-    src: "v1694008262/mads-eneqvist-zqiE16q_Ju0-unsplash_da5rtx.jpg",
+    src: "v1700457756/PKS_2805-removebg-preview_xlwlpb.png",
    },
    //    5kg honey
    {
@@ -23,7 +23,7 @@ export default defineEventHandler((event) => {
     price: 3000,
     details: "Natural Forest Honey From the Kenyan Highlands",
     size: "5kg",
-    src: "v1694008262/mads-eneqvist-zqiE16q_Ju0-unsplash_da5rtx.jpg",
+    src: "v1700457756/PKS_2805-removebg-preview_xlwlpb.png",
    },
 
    //300g honey
@@ -32,7 +32,7 @@ export default defineEventHandler((event) => {
     price: 200,
     details: "Natural Forest Honey From the Kenyan Highlands",
     size: "300g",
-    src: "v1694008262/mads-eneqvist-zqiE16q_Ju0-unsplash_da5rtx.jpg",
+    src: "v1700457756/PKS_2805-removebg-preview_xlwlpb.png",
    },
   ],
  }
