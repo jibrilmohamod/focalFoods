@@ -8,7 +8,6 @@ export default defineNuxtConfig({
   "@nuxt/image",
   "@pinia/nuxt",
   "@pinia-plugin-persistedstate/nuxt",
-  "nuxt-primevue",
  ],
 
  //tailwind options
@@ -53,15 +52,5 @@ export default defineNuxtConfig({
  //  pinia
  pinia: {
   storesDirs: ["./stores"],
- },
-
- //  primevue options
- primevue: {
-  options: { unstyled: true },
-  cssLayerOrder: "tailwind-base, primevue, tailwind-utilities",
-  importPT: { as: "Tailwind", from: "primevue/passthrough/tailwind" },
-  components: {
-   exclude: ["Editor", "Chart"],
-  },
  },
 })

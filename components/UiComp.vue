@@ -61,12 +61,11 @@
   },
   header: {
    type: String,
-   default: "Enjoy An Unforgettable Dining Experience",
+   default: "",
   },
   paragraph: {
    type: String,
-   default:
-    "  We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better.",
+   default: " .",
   },
  })
 </script>
